@@ -2,6 +2,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
+    box-sizing: inherit;
 }
 
 #container{
@@ -9,7 +10,7 @@ body {
     height: 500px;
     width: 90%;
     border: 2px solid pink;
-    background-color:#efefef;/*background still left*/
+    background-color:#A9A9A9;/*background still left*/
     margin-left: 4%;
     overflow:hidden;
 }
